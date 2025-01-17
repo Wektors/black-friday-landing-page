@@ -1,0 +1,50 @@
+body {
+	font-family: "Montserrat", serif;
+	color: white;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#section1 {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	flex-direction: column;
+	z-index: 1;
+}
+
+.background {
+	background-repeat: no-repeat;
+	background-image: url("./assets/rwdMode_1/background.webp");
+	background-size: cover;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.darken {
+	box-shadow: inset 0px 0px 100vw 100vh rgba(0, 0, 0, 0.72);
+}
+
+h1 {
+	width: 1115px;
+	height: 120px;
+	font-size: 100px;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid white;
+}
+
+button {
+	width: 270px;
+	height: 65px;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	background-color: rgb(85, 23, 255);
+	border: none;
+}
